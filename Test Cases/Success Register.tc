@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Success Register</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9a78d8ce-f83b-47a5-b123-a398d241ca17</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eabdc96f-3183-4ef4-84b0-e00338ffda0d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'setiomart'</defaultValue>
+      <description></description>
+      <id>eabdc96f-3183-4ef4-84b0-e00338ffda0d</id>
+      <masked>false</masked>
+      <name>nama_toko</name>
+   </variable>
+</TestCaseEntity>
