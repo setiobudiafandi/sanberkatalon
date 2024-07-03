@@ -21,19 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.baseURL)
 
-WebUI.click(findTestObject('Object Repository/Register/a_ingin mencoba, daftar'))
+WebUI.setText(findTestObject('Login/form_email'), 'setiomart@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/Register/input_nama toko_name'), nama_toko)
+WebUI.setText(findTestObject('Login/form_password'), 'setiomart')
 
-WebUI.setText(findTestObject('Object Repository/Register/input_email_email'), 'setiomart@gmail.com')
+WebUI.click(findTestObject('Login/button_login'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Register/input_password_password'), 'Xd2j7JQ8rINr/hPHgFXAbg==')
-
-WebUI.click(findTestObject('Object Repository/Register/button_daftar'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Register/div_Toko berhasil didaftarkananda dapat men_b3a8bd'))
-
-WebUI.click(findTestObject('Object Repository/Register/div_Toko berhasil didaftarkan'))
-
-WebUI.click(findTestObject('Object Repository/Register/div_anda dapat menggunakan login sekarang'))
+WebUI.verifyElementText(findTestObject('Login/toko_setiomart'), 'setiomart')
 
