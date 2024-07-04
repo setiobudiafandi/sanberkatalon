@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Success Logn</name>
+   <name>Success Akses Kategori Menu</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c324d940-68ca-47f4-bbbc-a1d87b2b333f</testCaseGuid>
+   <testCaseGuid>6f9e5976-2d50-4c6c-a941-bc63bb8d3d2f</testCaseGuid>
 </TestCaseEntity>
